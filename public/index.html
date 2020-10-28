@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="author" content="Zac Brydon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zac Brydon</title>
+    <link href="index.css" rel="stylesheet">
+    <link rel="icon" href="/images/coding.png">
+    <script src="https://kit.fontawesome.com/79f12f1a7c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="home" id="Home">
+        <div class="topnav" id="myTopnav">
+            <a class="menu" id="iconBlack" href="#Home"><img src="/images/coding.png" alt="icon" style="height:40px;width:40px;" /></a>
+            <a class="menu" id="iconWhite" href="#Home"><img src="/images/codingWhite.png" alt="icon" style="height:40px;width:40px;" /></a>
+            <a class="menu" id="about_me" href="#About_Me">About Me</a>
+            <a class="menu" id="_software" href="#Software">Software</a>
+            <a class="menu" id="_contact" href="#Contact">Contact</a>
+            <a id="menuIcon" href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="/images/menu.png" alt="Menu" style="height:40px;width:40px;" />
+            </a>
+            <a id="menuIconWhite" href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="/images/menuWhite.png" alt="Menu" style="height:40px;width:40px;" />
+            </a>
+        </div>
+
+        <div class="intro" id="snippet">
+            <p>Hi, I'm Zac. I am a Software Engineer, studying at Deakin University.</p>
+        </div>
+        <a href="#About_Me">
+            <div class="direct" id="snippet1">
+                <p>Learn more</p>
+                <br />
+                <img src="/images/down-arrow.png" alt="Down Arrow" style="height:30px;width:30px;" />
+
+            </div>
+        </a>
+
+    </div>
+    <div class="aboutMe" id="About_Me">
+        <div class="aboutMeContent">
+            <div class="content">
+                <h2 style="color:aliceblue;text-align:center;">About Me</h2>
+
+                <p class="contentText">This is a test</p>
+                <p class="contentText">This is a test</p>
+                <p class="contentText">This is a test</p>
+                <a href="/images/Resume.pdf" download="Zac_Brydon_Resume" class="contentText">My Resume</a>
+            </div>
+            <a href="#Software">
+                <div class="direct1" id="snippet2">
+                    <p>My Projects</p>
+                    <br />
+                    <img src="/images/down-arrow.png" alt="Down Arrow" style="height:30px;width:30px;" />
+
+                </div>
+            </a>
+        </div>
+        
+    </div>
+    <div class="software" id="Software">
+        <div class="row">
+            <br>
+
+
+            <div class="col-12">
+                <h2 style="color:aliceblue;text-align:center;">Software</h2>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="project">
+                    <p style="text-align:center;color:white;">Project One</p>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="project">
+                    <p style="text-align:center;color:white;">Project Two</p>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="project">
+                    <p style="text-align:center;color:white;">Project Three</p>
+                </div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <a href="#Contact">
+            <div class="direct2" id="snippet3">
+                <p>Get in Touch</p>
+                <br />
+                <img src="/images/down-arrow.png" alt="Down Arrow" style="height:30px;width:30px;" />
+
+            </div>
+        </a>
+    </div>
+    <div class="contact" id="Contact">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2 style="color:aliceblue;text-align:center;">Contact Me</h2>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="row">
+
+            <div class="col-4">
+
+                <a class="links" href="https://au.linkedin.com/in/zac-brydon-43ba111b3" target="_blank"><img src="/images/linkedin.png" alt="Linked In" style="height:70px;width:70px;" /></a>
+            </div>
+            <div class="col-4">
+                <a class="links" href="https://github.com/zbrydon" target="_blank"><img src="/images/github.png" alt="Linked In" style="height:70px;width:70px;" /></a>
+            </div>
+            <div class="col-4">
+                <a class="links" href="https://www.instagram.com/zac_brydon/?utm_source=qr" target="_blank"><img src="/images/instagram.png" alt="Linked In" style="height:70px;width:70px;" /></a>
+            </div>
+
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-13">
+                <p style="text-align:center;color:white;">zac@brydon.net.au</p>
+                <br />
+                <p style="text-align: center;color: white;">+61 490 817 319</p>
+            </div>
+        </div>
+        <div class="alert-success" id="success">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <strong>Success!</strong> Email has been sent, I will be in touch.
+        </div>
+        <div class="alert-failure" id="failure">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <strong>Error!</strong> Email hasn't been sent, sorry for the inconvenience please send me an email directly.
+        </div>
+        <div class="alert-warning" id="warning">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <strong>Error!</strong> Email hasn't been sent, please enter a valid email address.
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="container">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." class="mainLoginInput" style="background-color: #595959;">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." class="mainLoginInput" style="background-color: #595959;">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email.." class="mainLoginInput" style="background-color: #595959;">
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." class="mainLoginInput" style="background-color: #595959;"></textarea>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write something.." class="mainLoginInput" style="height: 200px;background-color: #595959;"></textarea>
+
+                    <input type="submit" value="Submit" id="submit">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
