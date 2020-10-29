@@ -18,7 +18,7 @@ app.use(function (req, res, next) {
 });
 
 
-app.listen(port, () => console.log(`Server runing on port ${port}`));
+app.listen(3000);
 
 app.get('/', function (req, res) {
     res.sendFile(`${base}/index.html`);
