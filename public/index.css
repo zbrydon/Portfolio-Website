@@ -280,7 +280,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width:100vw;
-
+    position:relative;
 }
 .aboutMe {
     background-image: url(/images/image2.jpg);
@@ -289,6 +289,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .software {
     min-height: 100vh;
@@ -297,6 +298,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .project {
     min-height: 70vh;    
@@ -402,7 +404,7 @@ input[type=submit] {
     color: whitesmoke;
     position: absolute;
     left: 47%;
-    top: 90%;
+    bottom:0%;
     
     transition: transform .2s;
     overflow:hidden;
@@ -417,7 +419,7 @@ input[type=submit] {
     color: whitesmoke;
     position: absolute;
     left: 47%;
-    top: 190%;
+    bottom:0%;
     transition: transform .2s;
     overflow: hidden;
 }
@@ -432,7 +434,7 @@ input[type=submit] {
     color: whitesmoke;
     position: absolute;
     left: 46.5%;
-    top: 290%;
+    bottom: 0%;
     transition: transform .2s;
     overflow: hidden;
 }
