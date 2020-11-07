@@ -7,6 +7,20 @@ function myFunction() {
     }
 }
 
+_iOSDevice = !!navigator.platform.match(/iPhone|iPod|iPad/);
+
+window.onload = function () {
+    if (_iOSDevice) {
+        
+        document.getElementById("Home").style.backgroundAttachment = "scroll";
+        document.getElementById("About_Me").style.backgroundAttachment = "scroll";
+        document.getElementById("Software").style.backgroundAttachment = "scroll";
+    } else {
+        document.getElementById("Home").style.backgroundAttachment = "fixed";
+        document.getElementById("About_Me").style.backgroundAttachment = "fixed";
+        document.getElementById("Software").style.backgroundAttachment = "fixed";
+    }
+}
 
 var $aboutMeHeight = $('#About_Me');
 var $softwareHeight = $('#Software');
