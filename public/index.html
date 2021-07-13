@@ -43,12 +43,15 @@
     <div class="aboutMe" id="About_Me">
         <div class="aboutMeContent">
             <div class="content">
-                <h1 style="color:aliceblue;text-align:center;">About Me</h1>
+                <h1 class="heading">About Me</h1>
 
-                <p class="contentText">This is a test</p>
-                <p class="contentText">This is a test</p>
-                <p class="contentText">This is a test</p>
-                <a href="/images/Resume.pdf" download="Zac_Brydon_Resume" class="contentText">My Resume</a>
+                <p class="contentText">I am a 21-year-old third year Deakin University Software Engineering student. Throughout my degree, I have undertaken numerous projects developing software, IoT, mobile, web and robotics applications. While completing these projects I have learned to work independently, lead teams, solve problems, de-bug and meet strict project deadlines with specific technical requirements. The Software Engineering faculty has fostered an encouraging yet independent working environment, stimulating me to become an efficient and self-motivated student, which I hope to translate to my professional work. </p>
+
+                <p class="contentText">My part time work experience as team supervisor and member in multiple departments at Woolworths has helped me to develop a customer-oriented mindset, working effectively to achieve and surpass my duties whilst prioritising customer satisfaction. I feel a sense of loyalty and pride in my workplace, having been at Woolworths for 4 years, and will apply this same attitude towards my career.</p>
+
+                <p class="contentText">My hobbies include basketball, surfing, and fitness as I enjoy maintaining a healthy, balanced, and regimented lifestyle. However, I am most passionate about architecting multifaceted IoT systems. I have an analytical brain and enjoy dissecting the intricacies of designing systems to be holistic, user centric and fault tolerant, while ensuring the solution is efficient. I am truly zealous when it comes to both university and personal projects and always give them my all. I hope to apply this enthusiasm to part-time employment or a summer internship to allow me to begin a career as a Software Engineer that I am truly passionate about. </p>
+
+                <p class="contentText"><a href="/images/Zac_Brydon_Resume.pdf" target="_blank">View my Resume Here</a></p>
             </div>
             <a href="#Software" >
                 <div class="direct1" id="snippet2">
@@ -67,7 +70,7 @@
 
 
             <div class="col-12">
-                <h1 style="color:aliceblue;text-align:center;">Software</h1>
+                <h1 class="heading">Software</h1>
             </div>
         </div>
         <br />
@@ -80,20 +83,27 @@
             <div class="mySlides fade">
                 <div class="project">
                     <br />
-                    <p style="font-size:18px ; text-align:center;color:white;">Pathfinding Algorithm Visualiser</p>
+                    <p style="font-size:30px ; text-align:center;color:white;">Pathfinding Algorithm Visualiser</p>
                     <br />
                     <img class="project-preview" src="/images/Capture.JPG" alt="Pathfinding Algorithm Visualiser" />
                     <br />
                     <br />
                     <div class="project-links">
-                        <a href="https://pathfinding-visualiser.zacbrydon.tech" target="_blank" style="margin-left:auto;margin-right:auto;">The working Pathfinding Algorithm Visualiser</a>
+                        <a href="https://pathfinding-visualiser.zacbrydon.tech" target="_blank" style="margin-left:auto;margin-right:auto;font-size: calc(0.7em + 0.5vw);">Demo</a>
 
-                        <a href="https://github.com/zbrydon/Pathfinding-Visualiser" target="_blank" style="margin-left:auto;margin-right:auto;">The Pathfinding Algorithm Visualiser Code</a>
+                        <a href="https://github.com/zbrydon/Pathfinding-Visualiser" target="_blank" style="margin-left:auto;margin-right:auto;font-size: calc(0.7em + 0.5vw);">Code</a>
                     </div>
-                    <br />
-                    <br />
-                    <p style="color: aliceblue;">
-                        This project displays the both the A* and Dijkstra's pathfinding algorithms as they find the sortest path.
+                    <p class="contentText1">
+                        •	This project displays the both the A* and Dijkstra's pathfinding algorithms as they find the sortest path.
+                    </p>
+
+                    <p class="contentText1">
+
+                        •	I created this project because I was interested in seeing Dijkstra's and AStar pathfinding algorithms in action, because they were only briefly mentioned in school
+                    </p>
+
+                    <p class="contentText1">
+                        •	The algorithms are implemented in JavaScript and displayed using plain HTML and CSS
                     </p>
 
                 </div>
@@ -101,48 +111,86 @@
 
             <div class="mySlides fade">
                 <div class="project">
-                    <p style="text-align:center;color:white;">Project Two</p>
+                    <br />
+                    <p style="font-size:30px ; text-align:center;color:white;">Delivery Tracking Web App Prototype </p>
+                    <br />
+                    <img class="project-preview" src="/images/DeliveryTrackerScreenShot.png" alt="Delivery Tracker Screenshot" />
+                    <br />
+                    <br />
+                    <div class="project-links">
+
+                        <a href="https://github.com/zbrydon/Delivery-Tracker" target="_blank" style="margin-left:auto;margin-right:auto;font-size: calc(0.7em + 0.5vw);">Code</a>
+
+                        <a href="/images/Prototype_Report.pdf" target="_blank"  style="margin-left:auto;margin-right:auto;font-size: calc(0.7em + 0.5vw);" >Prototype Report</a>
+                    </div>
+                    <p class="contentText1">
+                        •	This system prototype tracks mock deliveries as they travel from warehouses to stores
+                    </p>
+
+                    <p class="contentText1">
+
+                        •	I lead the team in developing the prototype in four weeklong sprints, communicating regularly with the client regarding the product requirements
+                    </p>
+
+                    <p class="contentText1">
+                        •	Utilised a NoSQL database hosted by MongoDB
+                    </p>
+
+                    <p class="contentText1">
+                        •	Featured user input validation & JWT authentication
+                    </p>
+
+                    <p class="contentText1">
+                        •	Contained Google Maps APIs integration to track and get estimated arrival time
+                    </p>
+
+                    <p class="contentText1">
+                        •	Used MQTT for communication between mock IoT devices
+                    </p>
+
+                    <p class="contentText1">
+                        •	All API endpoints were documented using apiDoc and tested using Jest
+                    </p>
+
+                    <p class="contentText1">
+                        •	The applications front end was developed in ReactJS
+                    </p>
                 </div>
             </div>
 
-            <div class="mySlides fade">
+            <!--<div class="mySlides fade">
                 <div class="project">
                     <p style="text-align:center;color:white;">Project Three</p>
                 </div>
-            </div>
+            </div>-->
 
             <!-- Next and previous buttons -->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br>
+            <br>
 
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-        <a href="#Contact" >
-            <div class="direct2" id="snippet3">
-                <p>Get in Touch</p>
-                <br />
-                <img src="/images/down-arrow.png" alt="Down Arrow" style="height:30px;width:30px;" />
-
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <!--<span class="dot" onclick="currentSlide(3)"></span>-->
             </div>
-        </a>
+        </div>
+        <div style="height:auto;margin-top:5vh;display:block;min-height:50px">
+            <a href="#Contact">
+                <div class="direct2" id="snippet3">
+                    <p>Get in Touch</p>
+                    <br />
+                    <img src="/images/down-arrow.png" alt="Down Arrow" style="height:30px;width:30px;" />
+
+                </div>
+            </a>
+        </div>
+        
     </div>
     <div class="contact" id="Contact">
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <h1 style="color:aliceblue;text-align:center;">Contact Me</h1>
-        <br />
-        <br />
-        <br />
-        <br />
+        <h1 class="heading">Contact Me</h1>
+
         <div class="row">
 
             <div class="col-4">

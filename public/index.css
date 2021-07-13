@@ -232,8 +232,9 @@ body {
 @media screen and (max-width: 800px) {
     .topnav.responsive {
         position: fixed;
-        display:block;
-        top:0px;
+        display: block;
+        top: 0px;
+        background: rgba(0,0,0,0.8);
     }
     .topnav.responsive #iconBlack {
         display: flex;
@@ -307,7 +308,7 @@ body {
     position: relative;
     background-color: #000000;
     background: rgb(38,38,38);
-    background: rgba(0,0,0,0.5);    
+    background: rgba(0,0,0,0.8);    
 }
 .project-preview {
     display:block;
@@ -330,14 +331,31 @@ body {
     background-color: #1a1a1a;
     min-height: 100vh;
 }
-.content {
-    /*opacity: 0.6;*/
-    background-color: #000000;
-    background:rgb(38,38,38);
-    background:rgba(0,0,0,0.5);
-    min-height: 70vh;
-    min-width:70%;
+
+
+@media screen and (max-width: 800px) {
+    .content {
+        /*opacity: 0.6;*/
+        background-color: #000000;
+        background: rgb(38,38,38);
+        background: rgba(0,0,0,0.8);
+        min-height: 70vh;
+    }
+
 }
+@media screen and (min-width: 801px) {
+    .content {
+        /*opacity: 0.6;*/
+        background-color: #000000;
+        background: rgb(38,38,38);
+        background: rgba(0,0,0,0.8);
+        min-height: 70vh;
+        min-width: 70%;
+        max-width: 70%
+    }
+}
+
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -392,10 +410,34 @@ input[type=submit] {
     color: white;
 }
 
+.heading {
+    color: aliceblue;
+    text-align: center;
+    font-size: calc(1.5em + 1.5vw);
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
 
-.contentText{
-    color:white;
-    text-align:justify;
+.contentText {
+    color: white;
+    text-align: center;
+    /*line-height: 1vw;*/
+    font-size: calc(0.7em + 0.5vw);
+    margin-bottom: 5vh;
+    letter-spacing: 3px;
+    margin-left: 10px;
+}
+
+.contentText1 {
+    color: white;
+    /*text-align: center;*/
+    /*line-height: 1vw;*/
+    margin-left: 5px;
+    
+    font-size: calc(0.7em + 0.5vw);
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    letter-spacing: 3px;
 }
 .intro {
     font-size: 4em;
@@ -447,6 +489,8 @@ input[type=submit] {
     bottom: 0%;
     transition: transform .2s;
     overflow: hidden;
+    margin-top:5vh;
+    display:block;
 }
 
     .direct2:hover {

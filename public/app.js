@@ -93,7 +93,7 @@ $(window).scroll(function () {
 
     if (window.getComputedStyle(menu, null).display == "flex" || window.getComputedStyle(menu, null).display == "absolute" || window.getComputedStyle(menuWhite, null).display == "flex" || window.getComputedStyle(menuWhite, null).display == "absolute") {
 
-        
+
         if (scrollPos + bottom - 12 < aboutPos && scrollPos + bottom > 0) {
             document.getElementById("myTopnav").style.backgroundColor = "transparent";
             document.getElementById("iconBlack").style.display = "flex";
@@ -136,8 +136,8 @@ $(window).scroll(function () {
 
         } else if (scrollPos + bottom - 12 > softPos && scrollPos + bottom < contPos) {
             document.getElementById("myTopnav").style.backgroundColor = "transparent";
-            document.getElementById("iconBlack").style.display = "flex";
-            document.getElementById("iconWhite").style.display = "none";
+            document.getElementById("iconBlack").style.display = "none";
+            document.getElementById("iconWhite").style.display = "flex";
 
             document.getElementById("about_me").style.fontSize = "26px";
             document.getElementById("_software").style.fontSize = "26px";
@@ -146,18 +146,18 @@ $(window).scroll(function () {
             document.getElementById("iconBlack").style.padding = "10px 15px";
             document.getElementById("iconWhite").style.padding = "10px 15px";
 
-            document.getElementById("menuIcon").style.display = "flex";
-            document.getElementById("menuIconWhite").style.display = "none";
+            document.getElementById("menuIcon").style.display = "none";
+            document.getElementById("menuIconWhite").style.display = "flex";
 
             document.getElementById("about_me").style.color = "white";
             document.getElementById("_software").style.color = "white";
             document.getElementById("_contact").style.color = "white";
-           
+
         } else if (scrollPos + bottom - 12 > contPos) {
 
-            document.getElementById("myTopnav").style.backgroundColor = "#262626";
-            document.getElementById("iconBlack").style.display = "flex";
-            document.getElementById("iconWhite").style.display = "none";
+            document.getElementById("myTopnav").style.background = "rgba(0,0,0,0.8)";
+            document.getElementById("iconBlack").style.display = "none";
+            document.getElementById("iconWhite").style.display = "flex";
 
             document.getElementById("about_me").style.fontSize = "26px";
             document.getElementById("_software").style.fontSize = "26px";
@@ -166,8 +166,8 @@ $(window).scroll(function () {
             document.getElementById("iconBlack").style.padding = "10px 15px";
             document.getElementById("iconWhite").style.padding = "10px 15px";
 
-            document.getElementById("menuIcon").style.display = "flex";
-            document.getElementById("menuIconWhite").style.display = "none";
+            document.getElementById("menuIcon").style.display = "none";
+            document.getElementById("menuIconWhite").style.display = "flex";
 
             document.getElementById("about_me").style.color = "white";
             document.getElementById("_software").style.color = "white";
@@ -176,7 +176,7 @@ $(window).scroll(function () {
     } else {
 
         if (scrollPos + bottom - 12 < aboutPos && scrollPos + bottom > 0) {
-            
+
             document.getElementById("myTopnav").style.backgroundColor = "transparent";
             document.getElementById("iconBlack").style.display = "none";
             document.getElementById("iconWhite").style.display = "none";
@@ -207,7 +207,7 @@ $(window).scroll(function () {
 
         } else if (scrollPos + bottom - 12 > aboutPos && scrollPos + bottom < softPos) {
 
-            
+
             document.getElementById("myTopnav").style.backgroundColor = "transparent";
             document.getElementById("iconWhite").style.display = "flex";
             document.getElementById("iconBlack").style.display = "none";
@@ -236,10 +236,10 @@ $(window).scroll(function () {
 
         } else if (scrollPos + bottom - 12 > softPos && scrollPos + bottom < contPos) {
 
-            
+
             document.getElementById("myTopnav").style.backgroundColor = "transparent";
-            document.getElementById("iconBlack").style.display = "flex";
-            document.getElementById("iconWhite").style.display = "none";
+            document.getElementById("iconBlack").style.display = "none";
+            document.getElementById("iconWhite").style.display = "flex";
 
             document.getElementById("iconBlack").style.width = "auto";
             document.getElementById("about_me").style.width = "auto";
@@ -263,10 +263,10 @@ $(window).scroll(function () {
             document.getElementById("_contact").style.color = "#f2f2f2";
         } else if (scrollPos + bottom - 12 > contPos) {
 
-            
-            document.getElementById("myTopnav").style.backgroundColor = "#262626";
-            document.getElementById("iconBlack").style.display = "flex";
-            document.getElementById("iconWhite").style.display = "none";
+
+            document.getElementById("myTopnav").style.background = "rgba(0,0,0,0.8)";
+            document.getElementById("iconBlack").style.display = "none";
+            document.getElementById("iconWhite").style.display = "flex";
 
             document.getElementById("iconBlack").style.width = "auto";
             document.getElementById("about_me").style.width = "auto";
